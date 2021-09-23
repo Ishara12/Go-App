@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoApp">
         <activity
+            android:name=".Go_payment_Successfull"
+            android:exported="true" />
+        <activity
             android:name=".Go_User"
             android:exported="true" />
         <activity
