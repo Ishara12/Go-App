@@ -10,6 +10,12 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoApp">
         <activity
+            android:name=".Go_payment_popup_message"
+            android:exported="true" />
+        <activity
+            android:name=".Go_card_payment"
+            android:exported="true" />
+        <activity
             android:name=".Go_cash_Payment"
             android:exported="true" />
         <activity

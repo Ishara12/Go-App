@@ -60,4 +60,7 @@
     <string name="viewuserprofile">View User Profile</string>
     <string name="finish">Finish</string>
     <string name="pay">Pay</string>
+    <string name="usethisbarcode">USE THIS WHEN ENTER TO THE BUS</string>
+    <string name="savethisbarcode">SAVE THIS BARCODE</string>
+
 </resources>
