@@ -55,12 +55,17 @@
     <string name="BackArrow">BackArrow</string>
 
     <string name="payment">Payment</string>
-    <string name="card">Card</string>
-    <string name="cash">Cash</string>
     <string name="viewuserprofile">View User Profile</string>
     <string name="finish">Finish</string>
     <string name="pay">Pay</string>
     <string name="usethisbarcode">USE THIS WHEN ENTER TO THE BUS</string>
     <string name="savethisbarcode">SAVE THIS BARCODE</string>
+    <string name="card">Card</string>
+    <string name="paymentamount">Payment Amount</string>
+    <string name="cash">Cash</string>
+    <string name="price">1600.00 LKR</string>
+    <string name="paymentmethod">Payment Methods</string>
+    <string name="confirmationofpayment">Payment of Rs.1600.00 confirmed</string>
+    >
 
 </resources>

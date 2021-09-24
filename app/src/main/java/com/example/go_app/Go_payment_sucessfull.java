@@ -4,7 +4,7 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import android.os.Bundle;
 
-public class Go_payment_Successfull extends AppCompatActivity {
+public class Go_payment_sucessfull extends AppCompatActivity {
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {

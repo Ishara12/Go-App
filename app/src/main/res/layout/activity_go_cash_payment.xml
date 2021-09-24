@@ -7,21 +7,8 @@
     tools:context=".Go_cash_Payment">
 
     <View
-        android:id="@+id/divider"
-        android:layout_width="wrap_content"
-        android:layout_height="3dp"
-        android:layout_marginStart="30dp"
-        android:layout_marginEnd="31dp"
-        android:background="@color/black"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/Methods2"
-        app:layout_constraintVertical_bias="0.428" />
-
-    <View
         android:id="@+id/divider2"
-        android:layout_width="400dp"
+        android:layout_width="wrap_content"
         android:layout_height="3dp"
         android:layout_marginStart="30dp"
         android:layout_marginTop="40dp"
@@ -36,71 +23,38 @@
     <Button
         android:id="@+id/Methods2"
         android:layout_width="wrap_content"
-        android:layout_height="60dp"
+        android:layout_height="56dp"
+        android:layout_marginBottom="4dp"
         android:backgroundTint="#000000"
         android:text="@string/finish"
         android:textColor="#F8F5F5"
         app:cornerRadius="20dp"
         app:iconTint="#EFE1C6"
-        app:layout_constraintBottom_toTopOf="@+id/divider"
+        app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.498"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView7" />
-
-    <ImageView
-        android:id="@+id/next"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="16dp"
-        app:layout_constraintEnd_toStartOf="@+id/textView3"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="?attr/actionModeCloseDrawable" />
-
-    <ImageView
-        android:id="@+id/imageView6"
-        android:layout_width="71dp"
-        android:layout_height="49dp"
-        android:layout_marginTop="4dp"
-        android:layout_marginEnd="36dp"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:srcCompat="@drawable/threedots" />
-
-    <TextView
-        android:id="@+id/textView3"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Payment Finishing Step"
-        app:layout_constraintBottom_toTopOf="@+id/divider2"
-        app:layout_constraintEnd_toStartOf="@+id/imageView6"
-        app:layout_constraintHorizontal_bias="0.5"
-        app:layout_constraintStart_toEndOf="@+id/next"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="1.0" />
+        app:layout_constraintHorizontal_bias="0.535"
+        app:layout_constraintStart_toStartOf="parent" />
 
     <ImageView
         android:id="@+id/imageView7"
-        android:layout_width="wrap_content"
-        android:layout_height="165dp"
-        app:layout_constraintBottom_toTopOf="@+id/Methods2"
+        android:layout_width="416dp"
+        android:layout_height="156dp"
+        android:layout_marginTop="20dp"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintHorizontal_bias="0.0"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/imageView11"
         app:srcCompat="@drawable/qrcode" />
 
     <ImageView
         android:id="@+id/imageView11"
-        android:layout_width="wrap_content"
-        android:layout_height="148dp"
+        android:layout_width="415dp"
+        android:layout_height="145dp"
         app:layout_constraintBottom_toTopOf="@+id/imageView7"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.5"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView12"
+        app:layout_constraintTop_toBottomOf="@+id/Cashimg"
         app:srcCompat="@drawable/lightred" />
 
     <TextView
@@ -142,7 +96,7 @@
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:layout_marginTop="8dp"
-        android:text="Cash"
+        android:text="@string/cash"
         android:textColor="#000000"
         android:textColorHighlight="#000000"
         android:textColorHint="#000000"
@@ -155,7 +109,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView10" />
 
     <ImageView
-        android:id="@+id/imageView12"
+        android:id="@+id/Cashimg"
         android:layout_width="wrap_content"
         android:layout_height="88dp"
         android:layout_marginTop="16dp"
@@ -169,35 +123,34 @@
         android:id="@+id/imageView15"
         android:layout_width="wrap_content"
         android:layout_height="174dp"
-        app:layout_constraintBottom_toTopOf="@+id/imageView12"
+        app:layout_constraintBottom_toTopOf="@+id/Cashimg"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="1.0"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6"
-        app:layout_constraintVertical_bias="0.795"
         app:srcCompat="@drawable/lightblue" />
 
     <TextView
         android:id="@+id/textView10"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="32dp"
-        android:layout_marginTop="44dp"
-        android:text="Payment Amount"
+        android:layout_width="141dp"
+        android:layout_height="39dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="80dp"
+        android:text="@string/paymentamount"
         android:textColor="#000000"
         android:textColorHighlight="#000000"
         android:textColorHint="#000000"
         android:textSize="16sp"
         android:textStyle="bold"
-        app:layout_constraintStart_toStartOf="@+id/imageView15"
-        app:layout_constraintTop_toBottomOf="@+id/next" />
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
     <TextView
         android:id="@+id/textView11"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_marginStart="140dp"
-        android:layout_marginTop="32dp"
-        android:text="1600.00 LKR"
+        android:layout_width="108dp"
+        android:layout_height="33dp"
+        android:layout_marginTop="76dp"
+        android:layout_marginEnd="16dp"
+        android:text="@string/price"
         android:textColor="#000000"
         android:textColorHighlight="#000000"
         android:textColorHint="#000000"
@@ -205,9 +158,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.448"
-        app:layout_constraintStart_toEndOf="@+id/textView10"
-        app:layout_constraintTop_toBottomOf="@+id/imageView6" />
+        app:layout_constraintTop_toTopOf="@+id/imageView15" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
