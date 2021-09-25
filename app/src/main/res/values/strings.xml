@@ -154,7 +154,8 @@
     <string name="login6">LOGIN</string>
     <string name="createnewacc">CREATE NEW ACCOUNT</string>
     <string name="gowhaere">Go Wherever You Want</string>
-
+    <string name="delete6">Deleted</string>
+    <string name="homepage3">HOME PAGE</string>
 
 
 </resources>
