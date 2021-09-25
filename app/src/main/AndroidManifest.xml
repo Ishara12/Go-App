@@ -10,8 +10,28 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoApp">
         <activity
-            android:name=".MainActivity2"
+            android:name=".Go_Feedback"
             android:exported="true" />
+        <activity
+            android:name=".Go_Deleteacc"
+            android:exported="true" />
+        <activity
+            android:name=".Go_Homepage"
+            android:exported="true" />
+        <activity
+            android:name=".Go_Editprofile"
+            android:exported="true" />
+        <activity
+            android:name=".Go_ViewProfile"
+            android:exported="true" />
+        <activity
+            android:name=".Go_SignUp"
+            android:exported="true" />
+        <activity
+            android:name=".Go_Login"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".MainActivity2" -->
+        <!-- android:exported="true" /> -->
         <activity
             android:name=".Go_payment_popup_message"
             android:exported="true" />

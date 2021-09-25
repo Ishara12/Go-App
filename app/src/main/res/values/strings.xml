@@ -156,6 +156,23 @@
     <string name="gowhaere">Go Wherever You Want</string>
     <string name="delete6">Deleted</string>
     <string name="homepage3">HOME PAGE</string>
+    <string name="write">Write......</string>
+    <string name="savefeedback">SAVE YOUR FEEDBACK</string>
+
+
+    <string name="username8">user name</string>
+
+    <string name="personalid8">personal ID</string>
+    <string name="phonenumber8">phone No</string>
+    <string name="email8">E-mail</string>
+    <string name="password8">password</string>
+    <string name="username9">user name</string>
+    <string name="password9">password</string>
+    <string name="username44" />
+    <string name="password44" />
+    <string name="username555" />
+    <string name="password555" />
+
 
 
 </resources>

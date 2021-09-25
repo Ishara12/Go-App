@@ -6,36 +6,6 @@
     android:layout_height="match_parent"
     tools:context=".Go_Homepage">
 
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="235dp"
-        android:layout_height="366dp"
-        android:text="@string/o"
-        android:textColor="#2196F3"
-        android:textSize="300sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.977"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.358"
-        tools:ignore="DuplicateIds" />
-
-    <TextView
-        android:id="@+id/textView2"
-        android:layout_width="191dp"
-        android:layout_height="328dp"
-        android:text="@string/g"
-        android:textColor="#000000"
-        android:textSize="300sp"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.202"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.0"
-        tools:ignore="DuplicateIds" />
-
     <Button
         android:id="@+id/button"
         android:layout_width="210dp"
@@ -55,7 +25,7 @@
         app:layout_constraintHorizontal_bias="0.497"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.804"
+        app:layout_constraintVertical_bias="0.788"
         app:rippleColor="@color/blue1"
         app:strokeColor="@color/blue1"
         app:strokeWidth="2dp" />
@@ -79,7 +49,7 @@
         app:layout_constraintHorizontal_bias="0.498"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.695"
+        app:layout_constraintVertical_bias="0.672"
         app:rippleColor="@color/blue1"
         app:strokeColor="@color/blue1"
         app:strokeWidth="2dp"
@@ -94,10 +64,10 @@
         android:textSize="18sp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintHorizontal_bias="0.586"
+        app:layout_constraintHorizontal_bias="0.639"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintVertical_bias="0.909"
+        app:layout_constraintVertical_bias="0.882"
         tools:ignore="DuplicateIds" />
 
     <ImageView
@@ -138,6 +108,17 @@
         app:layout_constraintVertical_bias="0.979"
         app:srcCompat="@drawable/twitter"
         tools:ignore="MissingConstraints" />
+
+    <ImageView
+        android:id="@+id/imageView22"
+        android:layout_width="259dp"
+        android:layout_height="387dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.017"
+        app:srcCompat="@drawable/go" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
