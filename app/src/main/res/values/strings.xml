@@ -149,5 +149,12 @@
     <string name="delete5">DELETE</string>
     <string name="update5">UPDATE</string>
 
+    <string name="g">G</string>
+    <string name="o">O</string>
+    <string name="login6">LOGIN</string>
+    <string name="createnewacc">CREATE NEW ACCOUNT</string>
+    <string name="gowhaere">Go Wherever You Want</string>
+
+
 
 </resources>
