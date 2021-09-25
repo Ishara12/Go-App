@@ -127,6 +127,7 @@
     <string name="alreadymember">Already Member ?</string>
     <string name="login1">Login</string>
     <string name="submit1">SUBMIT</string>
+
     <string name="username3">Ryo John</string>
     <string name="personalid3">PS1103</string>
     <string name="phonenumber3">0772555555</string>
@@ -134,6 +135,19 @@
     <string name="password3">Ryo123</string>
     <string name="updateprofile3">UPDATE PROFILE</string>
     <string name="feedback3">FEEDBACK</string>
+
+    <string name="usernameedit4">User Name</string>
+    <string name="personalidedit4">Personal ID</string>
+    <string name="phonenumberedit4">Phone Number</string>
+    <string name="emailedit4">E-Mail</string>
+    <string name="passwordedit1">Password</string>
+    <string name="username5" />
+    <string name="personal5" />
+    <string name="phonenumber5" />
+    <string name="email5" />
+    <string name="password5" />
+    <string name="delete5">DELETE</string>
+    <string name="update5">UPDATE</string>
 
 
 </resources>
