@@ -127,6 +127,13 @@
     <string name="alreadymember">Already Member ?</string>
     <string name="login1">Login</string>
     <string name="submit1">SUBMIT</string>
+    <string name="username3">Ryo John</string>
+    <string name="personalid3">PS1103</string>
+    <string name="phonenumber3">0772555555</string>
+    <string name="email3">ryo@gmail.com</string>
+    <string name="password3">Ryo123</string>
+    <string name="updateprofile3">UPDATE PROFILE</string>
+    <string name="feedback3">FEEDBACK</string>
 
 
 </resources>
