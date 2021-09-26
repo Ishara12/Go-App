@@ -11,9 +11,10 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_go_editprofile);
+        setContentView(R.layout.activity_go_sign_up);
+
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("User Edit");
+        actionBar.setTitle("Register");
         //actionBar.setSubtitle("Hello");
         //actionBar.setDisplayHomeAsUpEnabled(true);
         actionBar.setDisplayShowHomeEnabled(true);
