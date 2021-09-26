@@ -3,10 +3,27 @@
   <component name="DesignSurface">
     <option name="filePathToZoomLevelMap">
       <map>
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/drawable-anydpi/Bus.xml" value="0.14635416666666667" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/drawable-anydpi/refresh.xml" value="0.14635416666666667" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/drawable-v24/ic_launcher_foreground.xml" value="0.13229166666666667" />
         <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/drawable/activity_go_amount.xml" value="0.2" />
-        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_amount.xml" value="0.536" />
-        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_user.xml" value="0.176" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/drawable/ic_launcher_background.xml" value="0.13229166666666667" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_amount.xml" value="0.264" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_bus_list.xml" value="0.264" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_bus_search.xml" value="0.2" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_bus_seat_select.xml" value="0.4" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_payment_method.xml" value="0.2" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_route_details.xml" value="0.17552083333333332" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_seat_booking.xml" value="0.2" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_ticket_success.xml" value="0.264" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_user.xml" value="0.264" />
         <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/bus_list.xml" value="0.264" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/buslist_layout.xml" value="0.33697916666666666" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/busroute_layout.xml" value="0.264" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/fragment_date_picker.xml" value="0.35260416666666666" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/go_layout.xml" value="0.2" />
+        <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/menu/main.xml" value="0.2" />
       </map>
     </option>
   </component>
