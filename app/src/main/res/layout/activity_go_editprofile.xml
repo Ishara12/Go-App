@@ -68,7 +68,7 @@
         tools:ignore="DuplicateIds,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/user_personal"
         android:layout_width="324dp"
         android:layout_height="51dp"
         android:ems="10"

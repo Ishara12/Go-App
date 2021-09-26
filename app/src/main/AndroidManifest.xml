@@ -10,6 +10,9 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoApp">
         <activity
+            android:name=".FeedbackMain"
+            android:exported="true" />
+        <activity
             android:name=".Go_Feedback"
             android:exported="true" />
         <activity
@@ -26,38 +29,23 @@
             android:exported="true" />
         <activity
             android:name=".Go_SignUp"
-            android:exported="true" />
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
         <activity
             android:name=".Go_Login"
             android:exported="true" /> <!-- <activity -->
         <!-- android:name=".MainActivity2" -->
         <!-- android:exported="true" /> -->
         <activity
-            android:name=".Go_payment_popup_message"
-            android:exported="true" />
-        <activity
-            android:name=".Go_card_payment"
-            android:exported="true" />
-        <activity
-            android:name=".Go_cash_Payment"
-            android:exported="true" />
-        <activity
-            android:name=".Go_payment_sucessfull"
-            android:exported="true" />
-        <activity
-            android:name=".Go_User"
-            android:exported="true" />
-        <activity
-            android:name=".Go_Amount"
-            android:exported="true" />
-        <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
         </activity>
     </application>
 

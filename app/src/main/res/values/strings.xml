@@ -156,7 +156,7 @@
     <string name="gowhaere">Go Wherever You Want</string>
     <string name="delete6">Deleted</string>
     <string name="homepage3">HOME PAGE</string>
-    <string name="write">Write......</string>
+
     <string name="savefeedback">SAVE YOUR FEEDBACK</string>
 
 
@@ -172,7 +172,18 @@
     <string name="password44" />
     <string name="username555" />
     <string name="password555" />
-
+    <string name="write111" />
+    <string name="Write" />
+    <string name="write11">Write...</string>
+    <string name="username000">User Name</string>
+    <string name="register">Register</string>
+    <string name="username777">User Name</string>
+    <string name="password999">Password</string>
+    <string name="crrentlypassword">Re-enter Password</string>
+    <string name="password222">password</string>
+    <string name="username999">user name</string>
+    <string name="password990">password</string>
+    <string name="repassword">Re- enter password</string>
 
 
 </resources>

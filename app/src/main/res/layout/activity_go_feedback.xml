@@ -68,13 +68,13 @@
         app:srcCompat="@drawable/st" />
 
     <Button
-        android:id="@+id/button"
+        android:id="@+id/button22"
         android:layout_width="212dp"
         android:layout_height="48dp"
         android:layout_marginBottom="80dp"
         android:backgroundTint="@color/blue1"
         android:fontFamily="@font/roboto_light"
-        android:text="@string/savefeedback"
+        android:text="@string/save"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#FDFCFC"
@@ -104,13 +104,13 @@
 
 
         <EditText
-            android:id="@+id/editTextTextPersonName7"
+            android:id="@+id/feddback"
             android:layout_width="229dp"
             android:layout_height="wrap_content"
             android:ems="10"
             android:inputType="textPersonName"
             android:minHeight="48dp"
-            android:text="@string/write"
+            android:text="write"
             tools:ignore="DuplicateIds,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     </FrameLayout>
