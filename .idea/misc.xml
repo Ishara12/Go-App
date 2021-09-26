@@ -7,6 +7,13 @@
         <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_amount.xml" value="0.536" />
         <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_user.xml" value="0.176" />
         <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
+        <entry key="..\:/Y2S2/MAD/MAD-Project/app/src/main/res/layout/activity_go_add_bus.xml" value="0.25" />
+        <entry key="..\:/Y2S2/MAD/MAD-Project/app/src/main/res/layout/activity_go_admin_home.xml" value="0.20416666666666666" />
+        <entry key="..\:/Y2S2/MAD/MAD-Project/app/src/main/res/layout/activity_go_bus_details.xml" value="0.20416666666666666" />
+        <entry key="..\:/Y2S2/MAD/MAD-Project/app/src/main/res/layout/activity_go_delete_bus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Y2S2/MAD/MAD-Project/app/src/main/res/layout/activity_go_save_bus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Y2S2/MAD/MAD-Project/app/src/main/res/layout/activity_go_update_bus.xml" value="0.25" />
+        <entry key="..\:/Y2S2/MAD/MAD-Project/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
         <entry key="..\:/sliit(2nd year 2nd sem)/MAD/MAD-Project/app/src/main/res/layout/activity_go_amount.xml" value="0.264" />
         <entry key="..\:/sliit(2nd year 2nd sem)/MAD/MAD-Project/app/src/main/res/layout/activity_go_card_payment.xml" value="0.264" />
         <entry key="..\:/sliit(2nd year 2nd sem)/MAD/MAD-Project/app/src/main/res/layout/activity_go_cash_payment.xml" value="0.259375" />
@@ -24,12 +31,5 @@
   </component>
   <component name="ProjectType">
     <option name="id" value="Android" />
-  </component>
-  <component name="VisualizationToolProject">
-    <option name="state">
-      <ProjectState>
-        <option name="scale" value="0.259375" />
-      </ProjectState>
-    </option>
   </component>
 </project>

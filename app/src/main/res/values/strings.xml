@@ -103,6 +103,18 @@
     <string name="tx_startTime">Start Time</string>
     <string name="tx_endTime">End Time</string>
     <string name="tx_id">ID</string>
+    <string name="ed_viewBus" />
+    <string name="tx_viewBusDetails">View Bus Details</string>
+    <string name="view_hint">Type Bus ID</string>
+    <string name="driverName">Driver Name</string>
+    <string name="conductorName">Conductor Name</string>
+    <string name="vehicleNumber">Vehicle Number</string>
+    <string name="no_seats">No Of Seats</string>
+    <string name="budID">Bus ID</string>
+    <string name="driver_name">Driver Name</string>
+    <string name="conductor_name">Conductor Name</string>
+    <string name="vehicle_no">Vehicle No</string>
+    <string name="NoOfSeats">No Of Seats</string>
 
     <!-- Anuradha -->
 

@@ -10,8 +10,49 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.GoApp">
         <activity
-            android:name=".MainActivity2"
-            android:exported="true" />
+            android:name=".Go_SaveBus"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".Go_BusDetails"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".Go_AddBus"
+            android:exported="true">
+
+        </activity>
+        <activity
+            android:name=".Go_UpdateBus"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".Go_DeleteBus"
+            android:exported="true" >
+
+
+        </activity>
+        <activity
+            android:name=".Go_AdminHome"
+            android:exported="true" >
+
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+
+        </activity>
+
+<!--        <activity-->
+<!--            android:name=".MainActivity2"-->
+<!--            android:exported="true" />-->
         <activity
             android:name=".Go_payment_popup_message"
             android:exported="true" />
@@ -33,11 +74,12 @@
         <activity
             android:name=".MainActivity"
             android:exported="true">
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
+<!--            <intent-filter>-->
+<!--                <action android:name="android.intent.action.MAIN" />-->
 
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
+<!--                <category android:name="android.intent.category.LAUNCHER" />-->
+<!--            </intent-filter>-->
+
         </activity>
     </application>
 

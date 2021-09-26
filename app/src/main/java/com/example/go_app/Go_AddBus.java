@@ -31,7 +31,7 @@ public class Go_AddBus extends AppCompatActivity {
         setContentView(R.layout.activity_go_add_bus);
 
         ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle("Search Bus");
+        actionBar.setTitle("Add Buses");
 //        actionBar.setSubtitle("Hello");
         actionBar.setDisplayShowHomeEnabled(true);
         actionBar.setDisplayHomeAsUpEnabled(true);
@@ -81,9 +81,7 @@ public class Go_AddBus extends AppCompatActivity {
 
                     BusID++;
                     int id1 = BusID;
-
                     String  Busid = Integer.toString(id1);
-
 
                     dbRef.child(Busid).setValue(bus);
 
@@ -96,10 +94,6 @@ public class Go_AddBus extends AppCompatActivity {
 
             catch(NumberFormatException e){
                     Toast.makeText(getApplicationContext(), "Invalid Data!", Toast.LENGTH_SHORT).show();
-
                 }
-
-
             }
-
 }

@@ -1,6 +1,7 @@
 package com.example.go_app;
 
 public class Bus {
+
     private String ID;
     private String driverName;
     private String conductorName;
