@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Go_AdminHome">
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="358dp"
+        android:layout_height="299dp"
+        android:layout_marginTop="164dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.698"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/admin"
+        tools:ignore="MissingConstraints" />
+
+    <Button
+        android:id="@+id/btn_09"
+        android:layout_width="238dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="80dp"
+
+        android:text="@string/btn_viewBusses"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent" />
+<!-- android:onClick="nextActivity02" -->
+    <Button
+        android:id="@+id/btn_07"
+        android:layout_width="238dp"
+        android:layout_height="45dp"
+        android:layout_marginBottom="96dp"
+
+        android:text="@string/tv_addBus"
+        android:textColor="@color/black"
+        android:textSize="12sp"
+        app:backgroundTint="@color/white"
+        app:cornerRadius="10dp"
+        app:layout_constraintBottom_toBottomOf="@+id/btn_09"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.497"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/imageView4"
+        app:layout_constraintVertical_bias="1.0" />
+    <!-- android:onClick="nextActivity01" -->
+
+    <View
+        android:id="@+id/divider5"
+        android:layout_width="409dp"
+        android:layout_height="1dp"
+        android:background="?android:attr/listDivider"
+        app:layout_constraintBottom_toBottomOf="@+id/imageView4"
+        tools:layout_editor_absoluteX="1dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

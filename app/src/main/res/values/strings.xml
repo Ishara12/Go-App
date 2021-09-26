@@ -1,4 +1,6 @@
 <resources>
+
+    <!--    Chanul-->
     <string name="app_name">Go-App</string>
     <string name="From">Colombo, Sri Lanka</string>
     <string name="To">Jaffna, Sri Lanka</string>
@@ -23,7 +25,7 @@
     <string name="EndLocation">Jaffna</string>
     <string name="AC">AC</string>
     <string name="Time">6h 42min</string>
-    <string name="Price">400</string>
+    <string name="Price">400 LKR</string>
     <string name="Book">Book Now</string>
     <string name="BusNumber">NB - 3350</string>
     <string name="BusNumber1">NN - 9809</string>
@@ -41,42 +43,119 @@
     <string name="seat">Seats</string>
     <string name="PriceAmount">1600 LKR</string>
     <string name="Total">4 x 400 LKR</string>
-    <string name="TotalPrice">Total</string>
+    <string name="TotalPrice">Total Price</string>
     <string name="go">Go</string>
     <string name="Payment">Confirm</string>
     <string name="userid">Enter Your User ID ....</string>
     <string name="Userid">User ID</string>
     <string name="one">2</string>
     <string name="TotalSeats">Total Seats</string>
-    <string name="Number">0</string>
+    <string name="Number">10</string>
     <string name="SelectS">Select Your Seats</string>
     <string name="BusIcon">BusIcon</string>
     <string name="MenuImg">menuImg</string>
     <string name="BackArrow">BackArrow</string>
-    <string name="BtnBook">Book</string>
-    <string name="Currency">LKR</string>
-    <string name="EnterStartLocation">Enter Start Location</string>
-    <string name="EnterEndLocation">Enter End Location</string>
-    <string name="BtnSearch">Search</string>
-    <!-- TODO: Remove or change this placeholder text -->
-    <string name="hello_blank_fragment">Hello blank fragment</string>
-    <string name="PickDate">Pick Date</string>
-    <string name="TripDate">Trip Date</string>
-    <string name="reserver">Reserved</string>
-    <string name="Confirm">Confirm</string>
-    <string name="NoSeats">No of Seats</string>
-    <string name="SeatPrice">400</string>
-    <string name="NoS">1</string>
-    <string name="PerPerson">Price Per  Person</string>
-    <string name="TotPrice">1600</string>
-    <string name="UserID">User ID</string>
-    <string name="UserEmail">User Email</string>
-    <string name="ConfirmPayment"><![CDATA[Confirm & Payment]]></string>
-    <string name="Succes">Ticket Booked Succussefully</string>
-    <string name="Remove">Remove Ticke</string>
-    <string name="Update">Update Ticket</string>
-    <string name="NextPayment">Payment</string>
-    <string name="SelectSeats">Selected Seats</string>
-    <string name="SelectSeatNo">No</string>
-    <string name="SeantNumbers">Seats</string>
+
+    <!--    Kasun-->
+    <string name="payment">Payment</string>
+    <string name="viewuserprofile">View User Profile</string>
+    <string name="finish">Finish</string>
+    <string name="pay">Pay</string>
+    <string name="usethisbarcode">USE THIS WHEN ENTER TO THE BUS</string>
+    <string name="savethisbarcode">SAVE THIS BARCODE</string>
+    <string name="card">Card</string>
+    <string name="paymentamount">Payment Amount</string>
+    <string name="cash">Cash</string>
+    <string name="price">1600.00 LKR</string>
+    <string name="paymentmethod">Payment Methods</string>
+    <string name="confirmationofpayment">Payment of Rs.1600.00 confirmed</string>
+
+    <!--Anuradha-->
+    <string name="btn_homepage">Home Page</string>
+    <string name="delete">Deleted</string>
+    <string name="save">Successfully Saved</string>
+    <string name="btn_addBus">Add Busses</string>
+    <string name="btn_viewBus">View Busses</string>
+    <string name="ed_driverName"> </string>
+    <string name="ed_Conductor"> </string>
+    <string name="ed_vehicleNo"> </string>
+    <string name="ed_NoOfSeat"> </string>
+    <string name="tv_select">Select</string>
+    <string name="btn_update">Update</string>
+    <string name="btn_delete">Delete</string>
+    <string name="ed_update">Update</string>
+    <string name="button_save">save</string>
+    <string name="tv_NN">NN-3355</string>
+    <string name="TV_road">Colombo</string>
+    <string name="tv_time">"11.00 -/ 17.42"</string>
+    <string name="textView">50</string>
+    <string name="btn_view">View</string>
+    <string name="tv_details">Bus Details (Admin)</string>
+    <string name="tv_updateBus">Update Busses</string>
+    <string name="tv_addBus">Add Busses</string>
+    <string name="tv_deleteBus">Delete Busses</string>
+    <string name="btn_viewBusses">View Busses</string>
+    <string name="tv_saveBus">Saved Busses</string>
+    <string name="tx_driver">Driver Name</string>
+    <string name="tx_conductor">Conductor Name</string>
+    <string name="tx_vehicleNo">Vehicle Number</string>
+    <string name="tx_noOfSeats">No of Seats</string>
+    <string name="tx_strat">Start Location</string>
+    <string name="tx_end">End Location</string>
+    <string name="tx_startTime">Start Time</string>
+    <string name="tx_endTime">End Time</string>
+    <string name="tx_id">ID</string>
+
+    <!--Ishara-->
+    <string name="login">Login</string>
+    <string name="user_name">User Name</string>
+    <string name="password1">Password</string>
+    <string name="login_button">Login</string>
+    <string name="new_member_signup">New Member ? Sign Up</string>
+
+    <string name="signup">Sign Up</string>
+    <string name="username">User Name</string>
+    <string name="usernameedit" />
+    <string name="personalid1">Personal ID</string>
+    <string name="personalidedit" />
+    <string name="phonenumber">Phone Number</string>
+    <string name="phonenumberedit" />
+    <string name="email">E-Mail</string>
+    <string name="emailedit" />
+    <string name="password2">Password</string>
+    <string name="passwordedit" />
+    <string name="alreadymember">Already Member ?</string>
+    <string name="login1">Login</string>
+    <string name="submit1">SUBMIT</string>
+
+    <string name="username3">Ryo John</string>
+    <string name="personalid3">PS1103</string>
+    <string name="phonenumber3">0772555555</string>
+    <string name="email3">ryo@gmail.com</string>
+    <string name="password3">Ryo123</string>
+    <string name="updateprofile3">UPDATE PROFILE</string>
+    <string name="feedback3">FEEDBACK</string>
+
+    <string name="usernameedit4">User Name</string>
+    <string name="personalidedit4">Personal ID</string>
+    <string name="phonenumberedit4">Phone Number</string>
+    <string name="emailedit4">E-Mail</string>
+    <string name="passwordedit1">Password</string>
+    <string name="username5" />
+    <string name="personal5" />
+    <string name="phonenumber5" />
+    <string name="email5" />
+    <string name="password5" />
+    <string name="delete5">DELETE</string>
+    <string name="update5">UPDATE</string>
+
+    <string name="g">G</string>
+    <string name="o">O</string>
+    <string name="login6">LOGIN</string>
+    <string name="createnewacc">CREATE NEW ACCOUNT</string>
+    <string name="gowhaere">Go Wherever You Want</string>
+    <string name="delete6">Deleted</string>
+    <string name="homepage3">HOME PAGE</string>
+
+
 </resources>
