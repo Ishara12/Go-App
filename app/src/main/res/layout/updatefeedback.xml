@@ -68,17 +68,18 @@
         app:srcCompat="@drawable/st" />
 
     <Button
-        android:id="@+id/button22"
-        android:layout_width="212dp"
-        android:layout_height="48dp"
+        android:id="@+id/usubmit"
+        android:layout_width="236dp"
+        android:layout_height="101dp"
         android:layout_marginBottom="80dp"
         android:backgroundTint="@color/blue1"
         android:fontFamily="@font/roboto_light"
-        android:text="@string/save"
+
+        android:hint="update feedback"
         android:textAlignment="center"
         android:textAllCaps="false"
         android:textColor="#FDFCFC"
-        android:textSize="14sp"
+        android:textSize="24sp"
         android:textStyle="bold"
         app:cornerRadius="20dp"
         app:iconTint="#FFFFFF"
@@ -104,7 +105,7 @@
 
 
         <EditText
-            android:id="@+id/feddback"
+            android:id="@+id/ufeddback"
             android:layout_width="229dp"
             android:layout_height="wrap_content"
             android:ems="10"
@@ -114,6 +115,18 @@
             tools:ignore="DuplicateIds,SpeakableTextPresentCheck,SpeakableTextPresentCheck,SpeakableTextPresentCheck" />
 
     </FrameLayout>
+
+    <TextView
+        android:id="@+id/textView26"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Update Feedback "
+        android:textColor="#EA1212"
+        android:textSize="30dp"
+        android:textStyle="bold|italic"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        tools:layout_editor_absoluteY="73dp" />
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>
