@@ -7,26 +7,20 @@
         <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_amount.xml" value="0.536" />
         <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_go_user.xml" value="0.176" />
         <entry key="..\:/SLIIT/SLIIT/Year 2/Y2.S2/MAD/Project/MAD-Project/app/src/main/res/layout/activity_main.xml" value="0.20520833333333333" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/drawable/button_back.xml" value="0.18518518518518517" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/drawable/progress_back.xml" value="0.2203125" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_feedback_main.xml" value="0.1" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_admin_home.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_amount.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_bus_details.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_card_payment.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_cash_payment.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_delete_bus.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_deleteacc.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_editprofile.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_feedback.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_login.xml" value="0.22" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_payment_popup_message.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_sign_up.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_update_bus.xml" value="0.184375" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_user.xml" value="0.184375" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_go_view_profile.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/activity_main.xml" value="0.20416666666666666" />
-        <entry key="..\:/Users/minos/AndroidStudioProjects/MAD-Project/app/src/main/res/layout/updatefeedback.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/drawable/progress_back.xml" value="0.1" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/drawable/round_drawable.xml" value="0.2203125" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_feedback_main.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_add_bus.xml" value="0.5352380952380953" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_delete_bus.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_deleteacc.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_editprofile.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_feedback.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_homepage.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_login.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_sign_up.xml" value="0.25" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_user.xml" value="0.20416666666666666" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/layout/activity_go_view_profile.xml" value="0.33" />
+        <entry key="..\:/Users/user/Desktop/MAD/MAD-Project/app/src/main/res/menu/main.xml" value="0.20416666666666666" />
         <entry key="..\:/sliit(2nd year 2nd sem)/MAD/MAD-Project/app/src/main/res/layout/activity_go_amount.xml" value="0.264" />
         <entry key="..\:/sliit(2nd year 2nd sem)/MAD/MAD-Project/app/src/main/res/layout/activity_go_card_payment.xml" value="0.264" />
         <entry key="..\:/sliit(2nd year 2nd sem)/MAD/MAD-Project/app/src/main/res/layout/activity_go_cash_payment.xml" value="0.259375" />

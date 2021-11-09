@@ -131,7 +131,7 @@
         android:textSize="16sp"
         android:textStyle="bold"
         app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintTop_toBottomOf="@+id/editTextTextPersonName" />
+        app:layout_constraintTop_toBottomOf="@+id/user_personal" />
 
     <TextView
         android:id="@+id/textView14"
@@ -205,7 +205,7 @@
         app:layout_constraintTop_toBottomOf="@+id/textView17" />
 
     <EditText
-        android:id="@+id/editTextTextPersonName"
+        android:id="@+id/user_personal"
         android:layout_width="342dp"
         android:layout_height="55dp"
         android:layout_marginStart="45dp"

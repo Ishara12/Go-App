@@ -13,34 +13,39 @@
             android:name=".FeedbackMain"
             android:exported="true" />
         <activity
-            android:name=".MainActivity"
+            android:name=".Go_Feedback"
             android:exported="true" />
         <activity
-            android:name=".Go_payment_popup_message"
+            android:name=".Go_Deleteacc"
             android:exported="true" />
         <activity
-            android:name=".Go_card_payment"
+            android:name=".Go_Homepage"
             android:exported="true" />
         <activity
-            android:name=".Go_cash_Payment"
+            android:name=".Go_Editprofile"
             android:exported="true" />
         <activity
-            android:name=".Go_payment_sucessfull"
+            android:name=".Go_ViewProfile"
             android:exported="true" />
         <activity
-            android:name=".Go_User"
-            android:exported="true" />
-        <activity
-            android:name=".Go_Amount"
-            android:exported="true" />
-        <activity
-            android:name=".MainActivity"
-            android:exported="true">
+            android:name=".Go_SignUp"
+            android:exported="true" >
+
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+        </activity>
+        <activity
+            android:name=".Go_Login"
+            android:exported="true" /> <!-- <activity -->
+        <!-- android:name=".MainActivity2" -->
+        <!-- android:exported="true" /> -->
+        <activity
+            android:name=".MainActivity"
+            android:exported="true">
+
         </activity>
     </application>
 

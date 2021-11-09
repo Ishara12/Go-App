@@ -15,81 +15,13 @@ import android.widget.Toast;
 import com.google.android.gms.tasks.OnCompleteListener;
 import com.google.android.gms.tasks.Task;
 import com.google.android.material.textfield.TextInputEditText;
-import com.google.firebase.auth.AuthResult;
-import com.google.firebase.auth.FirebaseAuth;
-import com.google.firebase.auth.FirebaseUser;
+
 public class Go_Login extends AppCompatActivity {
-    private TextInputEditText userNameEdt1, passwordEdt1;
-    private TextView registerTV1;
-    private Button loginBtn1;
-    private FirebaseAuth mAuth;
-    private ProgressBar loadingPB1;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_go_login);
-
-        userNameEdt1 = findViewById(R.id.idEdtUserName1);
-        passwordEdt1 = findViewById(R.id.idEdtPassword1);
-        loginBtn1 = findViewById(R.id.idBtnLogin);
-        registerTV1 = findViewById(R.id.idTVNewUser1);
-        mAuth = FirebaseAuth.getInstance();
-        loadingPB1 = findViewById(R.id.idPBLoading1);
-
-
-        registerTV1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-
-                Intent i = new Intent(Go_Login.this, Go_SignUp.class);
-                startActivity(i);
-            }
-        });
-        loginBtn1.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                loadingPB1.setVisibility(View.VISIBLE);
-
-                String email = userNameEdt1.getText().toString();
-                String password = passwordEdt1.getText().toString();
-
-
-                if (TextUtils.isEmpty(email) && TextUtils.isEmpty(password)) {
-                    Toast.makeText(Go_Login.this, "Please enter your credentials..", Toast.LENGTH_SHORT).show();
-                    return;
-                }
-                mAuth.signInWithEmailAndPassword(email,password).addOnCompleteListener(new OnCompleteListener<AuthResult>() {
-                    @Override
-                    public void onComplete(@NonNull Task<AuthResult> task) {
-
-                        if (task.isSuccessful()) {
-
-                            loadingPB1.setVisibility(View.GONE);
-                            Toast.makeText(Go_Login.this, "Admin  Login Successful..", Toast.LENGTH_SHORT).show();
-
-                            Intent i = new Intent(Go_Login.this, Go_SignUp.class);
-                            startActivity(i);
-                            finish();
-                        }else{
-                            loadingPB1.setVisibility(View.GONE);
-                            Toast.makeText(Go_Login.this, "Please enter valid user credentials..", Toast.LENGTH_SHORT).show();
-                        }
-                    }
-                });
-            }
-        });
-
-    }
-    @Override
-    protected void onStart() {
-        super.onStart();
-        FirebaseUser user = mAuth.getCurrentUser();
-
-        if (user != null) {
-
-            Intent i = new Intent(Go_Login.this, Go_SignUp.class);
-            startActivity(i);
-            this.finish();
-        }
     }
 }
+

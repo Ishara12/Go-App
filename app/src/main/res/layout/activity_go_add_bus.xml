@@ -12,6 +12,7 @@
         android:layout_height="40dp"
         android:layout_marginEnd="20dp"
         android:ems="10"
+        android:hint="@string/driverName"
         android:inputType="textPersonName"
         android:text="@string/ed_driverName"
         android:textAlignment="viewStart"
@@ -25,6 +26,7 @@
         android:layout_height="40dp"
         android:layout_marginEnd="20dp"
         android:ems="10"
+        android:hint="@string/no_seats"
         android:inputType="textPersonName"
         android:text="@string/ed_NoOfSeat"
         android:textAlignment="viewStart"
@@ -38,6 +40,7 @@
         android:layout_height="40dp"
         android:layout_marginEnd="20dp"
         android:ems="10"
+        android:hint="@string/vehicleNumber"
         android:inputType="textPersonName"
         android:text="@string/ed_vehicleNo"
         android:textAlignment="viewStart"
@@ -51,6 +54,7 @@
         android:layout_height="40dp"
         android:layout_marginEnd="20dp"
         android:ems="10"
+        android:hint="@string/conductorName"
         android:inputType="textPersonName"
         android:text="@string/ed_Conductor"
         android:textAlignment="viewStart"
@@ -60,23 +64,23 @@
 
 
     <Button
-        android:id="@+id/btn_09"
+        android:id="@+id/btn_save"
         android:layout_width="150dp"
-        android:layout_height="45dp"
+        android:layout_height="60dp"
         android:layout_marginEnd="32dp"
         android:layout_marginBottom="116dp"
-        android:onClick="nextActivity01"
+        android:onClick="buttonSave"
         android:text="@string/button_save"
         android:textColor="@color/white"
-        android:textSize="12sp"
-        app:backgroundTint="@color/black"
+        android:textSize="14sp"
+        app:backgroundTint="@color/blue"
         app:cornerRadius="10dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintHorizontal_bias="0.567"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/ed_04"
-        app:layout_constraintVertical_bias="0.978" />
+        app:layout_constraintVertical_bias="1.0" />
 
     <TextView
         android:id="@+id/textView"
@@ -85,6 +89,7 @@
         android:layout_marginStart="28dp"
         android:layout_marginTop="180dp"
         android:text="@string/tx_driver"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
@@ -95,6 +100,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:text="@string/tx_conductor"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView" />
 
@@ -105,6 +111,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:text="@string/tx_vehicleNo"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView3" />
 
@@ -115,6 +122,7 @@
         android:layout_marginStart="30dp"
         android:layout_marginTop="20dp"
         android:text="@string/tx_noOfSeats"
+        android:textSize="16sp"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView19" />
 

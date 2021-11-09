@@ -33,13 +33,14 @@
     <Button
         android:id="@+id/BookNow"
         android:layout_width="150dp"
-        android:layout_height="45dp"
-        android:layout_marginTop="28dp"
-        android:layout_marginEnd="32dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="48dp"
+        android:layout_marginEnd="40dp"
         android:onClick="nextActivity01"
         android:text="@string/btn_homepage"
         android:textColor="@color/white"
-        android:textSize="12sp"
+        android:textColorHint="#2196F3"
+        android:textSize="16sp"
         app:backgroundTint="@color/black"
         app:cornerRadius="10dp"
         app:layout_constraintEnd_toEndOf="parent"
@@ -47,9 +48,11 @@
 
     <ImageView
         android:id="@+id/imageView3"
-        android:layout_width="321dp"
-        android:layout_height="295dp"
+        android:layout_width="366dp"
+        android:layout_height="301dp"
+        android:layout_marginTop="48dp"
         app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.644"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/textView2"
         app:srcCompat="@drawable/save" />
