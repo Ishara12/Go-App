@@ -13,7 +13,7 @@
             android:name=".FeedbackMain"
             android:exported="true" />
         <activity
-            android:name=".MainActivity2"
+            android:name=".MainActivity"
             android:exported="true" />
         <activity
             android:name=".Go_payment_popup_message"
